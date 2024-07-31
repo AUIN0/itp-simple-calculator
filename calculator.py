@@ -7,9 +7,9 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    if b == 0:
+    if y == 0:
         return "can't divide by 0"
-    return a / b
+    return x / y
 
 
 def multiply(x, y):
@@ -25,6 +25,6 @@ def power(x, y):
 
 
 def sqrt(x):
-    if a < 0:
+    if x < 0:
         return "invalid input"
-    return a ** 0.5
+    return x ** 0.5
